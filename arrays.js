@@ -21,6 +21,19 @@ function accessElementInArray(a,b){
   return a[b]
 }
 
-function destructivelyRemoveElement(a,b){
-  
+function destructivelyRemoveElement(a){
+  a.shift()
+  return a
 }
+
+function removeElementFromBeginningOfArray(a){
+  a.slice(1)
+  return a
+}
+
+function destructivelyRemoeELementFromEndOfArray(a){
+  a.pop()
+  return a
+}
+
+
